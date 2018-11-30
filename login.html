@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+
+    <style>
+      input[type=email], input[type=password] {
+          width: 100%;
+          padding: 12px 20px;
+          margin: 8px 0;
+          display: inline-block;
+          border: 1px solid #ccc;
+          box-sizing: border-box;
+      }
+
+/* Set a style for all buttons */
+          button {
+              background-color: gray;
+              color: black;
+              padding: 14px 20px;
+              margin: 8px 0;
+              border: none;
+              cursor: pointer;
+              width: 100%;
+          }
+
+          button:hover {
+              opacity: 0.8;
+              background-color: blue;
+          }
+
+          .container {
+              
+              margin: 10%  15% ;
+              
+              width: 60%;
+              
+              
+          }
+          .container h1{
+              text-align: center;
+          }
+
+
+    </style>
+  </head>
+  <body>
+    <header>
+      <img src="logo" alt="logo" href="Home.php">
+      <div class="SearchBar">
+        <input type="text" placeholder="Search..">
+      </div>
+        <link  href="/css/master.css">
+        
+      </header>
+      
+      
+
+
+      <div>
+        
+          <div id="id1" class="main">
+            
+            <form class="loginForm" action="/login-process.php">
+              
+
+                <div class="container">
+                  <h1>Login</h1>
+                  <label for="email"><b>Email</b></label><br>
+                  <input type="email" placeholder="Your email" name="email" required><br>
+
+                  <label for="pw"><b>Password</b></label><br>
+                  <input type="password" placeholder="Enter Password" name="pw" required><br>
+                    
+                  <button type="submit">Login</button>
+                  <span class="psw">Forgot <a href="psReset.html">password?</a></span><br>
+                  <span class="psw">Don't have account? <a href="signUp.html">Regist</a></span>
+                </div>
+
+
+
+              </div>
+
+            </form>
+          </div>
+
+      </div>
+      </div>
+  </body>
+</html>
