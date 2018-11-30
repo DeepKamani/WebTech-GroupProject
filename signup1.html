@@ -5,7 +5,7 @@
     <title></title>
 
     <style>
-      input[type=email], input[type=password] {
+      input[type=email], input[type=password], .container input[type = text]  {
           width: 100%;
           padding: 12px 20px;
           margin: 8px 0;
@@ -32,8 +32,8 @@
 
           .container {
               
-              margin: 10%  15% ;
-              width: 60%;
+              margin: 0 auto;
+              width: 430px;
               
               
           }
@@ -52,7 +52,7 @@
       </div>
         <link  href="/css/master.css">
       <nav id=navbar>
-            <li><a href="SignUp.html">Sign Up</a></li>
+            <li><a href="Login.html">Log in</a></li>
         </nav>  
       </header>
       
@@ -63,20 +63,33 @@
         
           <div id="id1" class="main">
             
-            <form class="loginForm" action="/login-process.php">
+            <form class="signupForm" action="/login-process.php">
               
 
                 <div class="container">
-                  <h1>Login</h1>
+                  <h1>Sign up</h1>
+                  <label for="userName"><b>User Name</b></label><br>
+                  <input type="text" placeholder="Create your user name" name="userName" required><br>
+
                   <label for="email"><b>Email</b></label><br>
                   <input type="email" placeholder="Your email" name="email" required><br>
 
                   <label for="pw"><b>Password</b></label><br>
-                  <input type="password" placeholder="Enter Password" name="pw" required><br>
-                    
+                  <input type="password" placeholder="Create Password" name="pw" required><br>
+                  
+                  <label for="address"><b>Address</b></label><br>
+                  <input type="text" placeholder="Your address" name="address" required><br>
+
+                  <label for="city"><b>City/State</b></label><br>
+                  <input type="text" placeholder="City/State" name="city" required><br>
+
+                  <label for="postcode"><b>Postcode</b></label><br>
+                  <input type="text" placeholder="postcode" name="postcode" required><br>
+
+                  <p>By creating an account you agree to our <a href="terms.html" style="color:dodgerblue">Terms & Privacy</a>.</p>
+
                   <button type="submit">Login</button>
-                  <span class="psw">Forgot <a href="psReset.html">password?</a></span><br>
-                  <span class="psw">Don't have account? <a href="signUp.html">Regist</a></span>
+                  <span class="psw">Have an account? <a href="login.html">Go to login</a></span>
                 </div>
 
 
