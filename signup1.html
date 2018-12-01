@@ -42,19 +42,49 @@
               text-align: center;
           }
 
+          .background{
+              background-color: black;
+              padding: 20px;
+}
+          header{
+              display:inline;
+              width:100%;
+          }
+          #search{
+              margin-right: -500px;
+              display:inline;
+              width:300px;
+          }
+          li{
+          /*display:inline;*/
+          float:right;
+          }
+          #logo{
+          float: left;
+        }
+        a{
+          display:inline;
+          color: white;
+        }
+        #psw{
+          color:black;
+        }
+
 
     </style>
   </head>
   <body>
     <header>
-      <img src="logo" alt="logo" href="Home.php">
+      <div class="background">
+      <img src="logo" alt="logo" href="Home.php" id="logo">
       <div class="SearchBar">
-        <input type="text" placeholder="Search..">
+        <input type="text" placeholder="Search.." id="search">
       </div>
         <link  href="/css/master.css">
-      <nav id=navbar>
+      <!-- <nav id=navbar> -->
             <li><a href="Login.html">Log in</a></li>
-        </nav>  
+        <!-- </nav>  --> 
+      </div>
       </header>
       
       
@@ -90,7 +120,7 @@
                   <p>By creating an account you agree to our <a href="terms.html" style="color:dodgerblue">Terms & Privacy</a>.</p>
 
                   <a href="signup2.html"><button>Next>></button></a>
-                  <span class="psw">Have an account? <a href="login.html">Go to login</a></span>
+                  <span class="psw">Have an account? <a href="login.html" id="psw">Go to login</a></span>
                 </div>
 
 
