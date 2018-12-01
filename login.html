@@ -41,19 +41,48 @@
               text-align: center;
           }
 
-
+          .background{
+              background-color: black;
+              padding: 20px;
+}
+          header{
+              width:100%;
+              display:inline;
+              width:100%;
+          }
+          #search{
+              margin-right: 500px;
+              display:inline;
+              width:300px;
+          }
+          li{
+         /* display:inline;*/
+          float:right;
+          }
+          #logo{
+          float: left;
+        }
+        a{
+          color: white;
+        }
+        #psw{
+          color:black;
+        }
     </style>
   </head>
+
   <body>
+    <div class="background">
     <header>
-      <img src="logo" alt="logo" href="Home.php">
-      <div class="SearchBar">
-        <input type="text" placeholder="Search..">
-      </div>
+      <img src="logo" alt="logo" href="Home.php" id="logo">
+      <!-- <div class="SearchBar"> -->
+        <input type="text" placeholder="Search.." id="search">
+      <!-- </div> -->
         <link  href="/css/master.css">
-      <nav id=navbar>
+     <!--  <div id=navbar> -->
             <li><a href="SignUp.html">Sign Up</a></li>
-        </nav>  
+        </div>  
+      </div>
       </header>
       
       
@@ -75,8 +104,8 @@
                   <input type="password" placeholder="Enter Password" name="pw" required><br>
                     
                   <button type="submit">Login</button>
-                  <span class="psw">Forgot <a href="psReset.html">password?</a></span><br>
-                  <span class="psw">Don't have account? <a href="signUp.html">Regist</a></span>
+                  <span>Forgot <a href="psReset.html" id="psw">password?</a></span><br>
+                  <span>Don't have account? <a href="signUp.html"  id="psw">Regist</a></span>
                 </div>
 
 
