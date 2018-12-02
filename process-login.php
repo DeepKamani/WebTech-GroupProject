@@ -5,9 +5,9 @@ $email = $_POST['email'];
 $pw = $_POST['pw'];
 
 
-$dsn = "mysql:host=localhost;dbname=de-creation;charset=utf8mb4";
-$dbusername = "xxx"; 
-$dbpassword = "xxxxxxxx";
+$dsn = "mysql:host=localhost;dbname=li96_de-creation;charset=utf8mb4";
+$dbusername = "li96"; 
+$dbpassword = "*4#rGWcV2H&";
 
 $pdo = new PDO($dsn, $dbusername, $dbpassword); 
 
