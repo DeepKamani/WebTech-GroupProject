@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Upload Work</title>
+    <link rel="stylesheet" href="/css/upload.css">
+  </head>
+  <body>
+    <form action="/action_page.php">
+  <h1>Upload Your Work</h1>
+
+<p>Image or Video</p>
+<input type="file" name="pic" accept="file_extension|audio/*|video/*|image/*|media_type">
+<input type="submit">
+  <p>Preview Image</p>
+<form action="/action_page.php">
+<input type="file" name="pic" accept="file_extension|audio/*|video/*|image/*|media_type">
+<input type="submit">
+</form>
+<div class="Hashtags">
+<h2>Hashtags</h2>
+<p>Select your Hashtags for you work</p>
+</div>
+<div class="Applications Used">
+<p>Select the Applications used for the project</p>
+</div>
+<div class="Description">
+<form>
+<p>Title:<input type="text" name="Title" value=""></p>
+<p>Preview Text:<input type="text" name="Preview" value=""></p>
+<p>Description about project:<input type="text" name="Description" value=""></p>
+Type:<br><br>
+<!--Put type inside a box-->
+Animation:<input type="checkbox" name="type" value="">
+Graphic Design:<input type="checkbox" name="type" value="">
+Game design:<input type="checkbox" name="type" value="">
+UX/UI Design:<input type="checkbox" name="type" value="">
+Visual Effects:<input type="checkbox" name="type" value="">
+Photography:<input type="checkbox" name="type" value="">
+<br>
+<br>
+Item Sellable:
+Yes:<input type="radio" name="tick" value="Yes">
+No:<input type="radio" name="tick" value="No">
+<br>
+<br>
+<!--If yes the put a javasript to add new textfield  -->
+Set Price:<input type="text" name="price" >
+<br>
+<br>
+<input type="submit">
+</form>
+</div>
+  </body>
+</html>
