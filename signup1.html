@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+
+    <style>
+      input[type=email], input[type=password], .container input[type = text]  {
+          width: 100%;
+          padding: 12px 20px;
+          margin: 8px 0;
+          display: inline-block;
+          border: 1px solid #ccc;
+          box-sizing: border-box;
+      }
+
+
+          button {
+              background-color: gray;
+              color: black;
+              padding: 14px 20px;
+              margin: 8px 0;
+              border: none;
+              cursor: pointer;
+              width: 100%;
+          }
+
+          button:hover {
+              opacity: 0.8;
+              
+          }
+
+          .container {
+              
+              padding:10%;
+              margin: 0 auto;
+              width: 430px;
+              
+              
+          }
+          .container h1{
+              text-align: center;
+          }
+
+          .background{
+              background-color: black;
+              padding: 20px;
+}
+          header{
+              display:inline;
+              width:100%;
+          }
+          #search{
+              margin-right: -500px;
+              display:inline;
+              width:300px;
+          }
+          li{
+          /*display:inline;*/
+          float:right;
+          }
+          #logo{
+          float: left;
+        }
+        a{
+          display:inline;
+          color: white;
+        }
+        #psw{
+          color:black;
+        }
+
+
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="background">
+      <img src="logo" alt="logo" href="Home.php" id="logo">
+      <div class="SearchBar">
+        <input type="text" placeholder="Search.." id="search">
+      </div>
+        <link  href="/css/master.css">
+      <!-- <nav id=navbar> -->
+            <li><a href="Login.html">Log in</a></li>
+        <!-- </nav>  --> 
+      </div>
+      </header>
+      
+      
+
+
+      <div>
+        
+          <div id="id1" class="main">
+            
+            <form class="signupForm" action="/login-process.php">
+              
+
+                <div class="container">
+                  <h1>Sign up</h1>
+                  <label for="userName"><b>User Name</b></label><br>
+                  <input type="text" placeholder="Create your user name" name="userName" required><br>
+
+                  <label for="email"><b>Email</b></label><br>
+                  <input type="email" placeholder="Your email" name="email" required><br>
+
+                  <label for="pw"><b>Password</b></label><br>
+                  <input type="password" placeholder="Create Password" name="pw" required><br>
+                  
+                  <label for="address"><b>Address</b></label><br>
+                  <input type="text" placeholder="Your address" name="address" required><br>
+
+                  <label for="city"><b>City/State</b></label><br>
+                  <input type="text" placeholder="City/State" name="city" required><br>
+
+                  <label for="postcode"><b>Postcode</b></label><br>
+                  <input type="text" placeholder="postcode" name="postcode" required><br>
+
+                  <p>By creating an account you agree to our <a href="terms.html" style="color:dodgerblue">Terms & Privacy</a>.</p>
+
+                  <a href="signup2.html"><button>Next>></button></a>
+                  <span class="psw">Have an account? <a href="login.html" id="psw">Go to login</a></span>
+                </div>
+
+
+
+              </div>
+
+            </form>
+          </div>
+
+      </div>
+      </div>
+  </body>
+</html>
