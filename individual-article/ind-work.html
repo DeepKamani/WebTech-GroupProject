@@ -4,7 +4,7 @@
 		<title>Individual article</title>
 		<meta character="utf-8"/>
 		<link rel="stylesheet" href="css/ind.css">
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		
 	</head>
 
 	<body>
@@ -17,6 +17,7 @@
 			</nav> -->
 		</header>
 		<style type=text/css>
+
 		    .article1{
             	margin: 250px;
             	margin-top: 50px;
@@ -24,40 +25,32 @@
 			.a1{
 				border-style: solid; 
 				border-width: thick;
-                 margin-top:-337px;
-                 float: right;
-                 /*background-color: pink;*/
+                 margin-top:-72.5%;
+                 height:800px;
+                 float: right;               
                  padding: 10px;
-
 			}
 
 			 #des{
             	height:300px;
             }
-            .title { grid-area: header; 
-            }
-            .rate { grid-area: rate; 
-            	
-            }
-            .container{
-            	display: grid;
-            	grid-template-areas:' hrader header  header header header rate';
+
+           .title {
             	background-color:#272209;
-            	padding:0px;
-            	margin-top: -250px;
-            	margin-left: 200px;
-            	width: 600px;
-            	height: 100px;
-            	
+            	color:white;
+            	padding:7px;
+            	width: 97.5%;          	
             }
-           .container>div{
-           font-size: 12px;
-           color:white;
-            padding:0;
-           } 
+          
 			.checked {
                  color: orange;
             }
+
+        	.a{
+            margin-top: -240px;
+
+       		 }
+
           .like{
 	       display:inline;
 	       margin-left: 430px;
@@ -65,9 +58,27 @@
 
            .comment{
            	margin-left: 200px;
+           	margin-right: 450px;
+           	border-style: solid; 
+			border-width: thick;
+			padding:10px;
            }
+
+           .img{
+           	border-style: solid; 
+			border-width: thick;
+           	margin-left:-50px;
+           	margin-right: 200px;
+           	
+			padding:10px;
+           }
+
+           #image{
+           	width:100%;
+           }
+
 			#co{
-				width: 57%;
+				width: 100%;
 				height: 50px;
 
 			}
@@ -88,10 +99,26 @@
 				overflow:hidden;
 			}
 		</style>
+
+
 		<div class="outline">
 		<section class="article1">
 		<div class="img">
-			<img src="bloom.jpg" alt="bloomImg" width="500" height="333">
+			<img src="./image/bloom.jpg" alt="bloomImg" id="image">
+			<div class="title">
+			<h2>Title</h2>
+				
+				<tr>
+					<td>type:php</td>
+					<td>views:php</td>
+					<td>likess:php</td>
+				</tr>
+				<tr>
+					<td>CDN(PHP)</td>
+				</tr><br>
+			 <img src="./image/download.png" alt="downloadImg" id="icon"> 
+             <img src="./image/cart.png" alt="shoppingCartImg" id="icon"> 
+</div>
 		</div>
 			<div>
 			<article class="a1">
@@ -105,41 +132,12 @@
 			</article>
 		</div>
 	    </section>
-<div class="container">
-	<div class="title">
-			<h2>Title</h2>
-				
-				<tr>
-					<td>type:php</td>
-					<td>views:php</td>
-					<td>likess:php</td>
-				</tr>
-				<tr>
-					<td>CDN(PHP)</td>
-				</tr><br>
-			 <img src="download.png" alt="downloadImg" id="icon"> 
-             <img src="cart.png" alt="shoppingCartImg" id="icon"> 
-</div>
+	
 
 
 <!-- -----rating------ -->
-<div class="rate">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-<h2>Star Rating</h2>
-<span class="fa fa-star checked"></span>
-<span class="fa fa-star checked"></span>
-<span class="fa fa-star checked"></span>
-<span class="fa fa-star"></span>
-<span class="fa fa-star"></span>
-<span class="fa fa-star"></span>
-<span class="fa fa-star"></span>
-<span class="fa fa-star"></span>
-<span class="fa fa-star"></span>
-<span class="fa fa-star"></span>
-</div>
-</div>
-
+<div class="a">
 <div class="like">
 <input type="radio" name="like" value="like">Like
 <input type="radio" name="dislike" value="dislike">Dislike<br>
@@ -150,18 +148,49 @@
 	Comment<br>
 	<input type="text" name="Comment" id="co"><br/>
 	<button type="button">Submit</button><br>
+<br>
 
-	<img src="user1.jpg" alt="userImg" id="size"> 
+	<div style=
+	"width:100%;
+	height:3px;
+	margin:0px auto;
+	padding:0px;
+	background-color:#D5D5D5;
+	overflow:hidden;">
+	</div>
+<br>
+	<img src="./image/user1.jpg" alt="userImg" id="size"> 
 	<p>user1</p>
     <p>comment</p>
-    <img src="user2.jpg" alt="userImg" id="size"> 
+
+    <div style=
+	"width:100%;
+	height:1px;
+	margin:0px auto;
+	padding:0px;
+	background-color:#D5D5D5;
+	overflow:hidden;">
+	</div>
+	<br>
+    <img src="./image/user2.jpg" alt="userImg" id="size"> 
     <p>user2</p>
     <p>comment</p>
-    <img src="user3.jpg" alt="userImg" id="size"> 
+   
+     <div style=
+	"width:100%;
+	height:1px;
+	margin:0px auto;
+	padding:0px;
+	background-color:#D5D5D5;
+	overflow:hidden;">
+	</div>
+	<br>
+    <img src="./image/user3.jpg" alt="userImg" id="size"> 
     <p>user3</p>
 	<p>comment</p>
 
 	</section>
+</div>
 </div>
 	</body>
 </html>
