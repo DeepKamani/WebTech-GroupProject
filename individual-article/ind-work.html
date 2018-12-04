@@ -1,0 +1,167 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Individual article</title>
+		<meta character="utf-8"/>
+		<link rel="stylesheet" href="css/ind.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	</head>
+
+	<body>
+		<header>
+			<!-- <img src="logo.png"/>
+			<nav>
+				<ul id = "category-info">
+					<li><a href=""></a></li>
+				</ul>
+			</nav> -->
+		</header>
+		<style type=text/css>
+		    .article1{
+            	margin: 250px;
+            	margin-top: 50px;
+            }
+			.a1{
+				border-style: solid; 
+				border-width: thick;
+                 margin-top:-337px;
+                 float: right;
+                 /*background-color: pink;*/
+                 padding: 10px;
+
+			}
+
+			 #des{
+            	height:300px;
+            }
+            .title { grid-area: header; 
+            }
+            .rate { grid-area: rate; 
+            	
+            }
+            .container{
+            	display: grid;
+            	grid-template-areas:' hrader header  header header header rate';
+            	background-color:#272209;
+            	padding:0px;
+            	margin-top: -250px;
+            	margin-left: 200px;
+            	width: 600px;
+            	height: 100px;
+            	
+            }
+           .container>div{
+           font-size: 12px;
+           color:white;
+            padding:0;
+           } 
+			.checked {
+                 color: orange;
+            }
+          .like{
+	       display:inline;
+	       margin-left: 430px;
+           }           
+
+           .comment{
+           	margin-left: 200px;
+           }
+			#co{
+				width: 57%;
+				height: 50px;
+
+			}
+
+			button{
+				float: right;
+			}
+
+			#icon{
+				width:20px;
+				color:white;
+			}
+
+			#size{
+				width:60px;
+				height:60px; 
+				border-radius:50%; 
+				overflow:hidden;
+			}
+		</style>
+		<div class="outline">
+		<section class="article1">
+		<div class="img">
+			<img src="bloom.jpg" alt="bloomImg" width="500" height="333">
+		</div>
+			<div>
+			<article class="a1">
+				<h2>Author</h2>
+				<h2>Email</h2>
+				<h2>Title</h2>
+				<p>type</p>
+				<p>carts</p>
+				<input type="text" placeholder="discription para" name="Description" id="des" ><br/>
+				<h3>Software</h3>
+			</article>
+		</div>
+	    </section>
+<div class="container">
+	<div class="title">
+			<h2>Title</h2>
+				
+				<tr>
+					<td>type:php</td>
+					<td>views:php</td>
+					<td>likess:php</td>
+				</tr>
+				<tr>
+					<td>CDN(PHP)</td>
+				</tr><br>
+			 <img src="download.png" alt="downloadImg" id="icon"> 
+             <img src="cart.png" alt="shoppingCartImg" id="icon"> 
+</div>
+
+
+<!-- -----rating------ -->
+<div class="rate">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<h2>Star Rating</h2>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+</div>
+</div>
+
+<div class="like">
+<input type="radio" name="like" value="like">Like
+<input type="radio" name="dislike" value="dislike">Dislike<br>
+</div>
+
+<section class= "comment">
+
+	Comment<br>
+	<input type="text" name="Comment" id="co"><br/>
+	<button type="button">Submit</button><br>
+
+	<img src="user1.jpg" alt="userImg" id="size"> 
+	<p>user1</p>
+    <p>comment</p>
+    <img src="user2.jpg" alt="userImg" id="size"> 
+    <p>user2</p>
+    <p>comment</p>
+    <img src="user3.jpg" alt="userImg" id="size"> 
+    <p>user3</p>
+	<p>comment</p>
+
+	</section>
+</div>
+	</body>
+</html>
