@@ -1,6 +1,7 @@
 <?php 
 //receive values user submitted from form
 $FullName = $_POST['FullName'];
+$CountryCode = $_POST['CountryCode'];
 $PhoneNumber = $_POST['PhoneNumber'];
 $issue = $_POST['issue'];
 
@@ -11,10 +12,10 @@ $dbpassword = "*4#rGWcV2H&";
 
 $pdo = new PDO($dsn, $dbusername, $dbpassword); 
 
-$stmt = $pdo->prepare("INSERT INTO `contact` (`id`, `FullName`, `PhoneNumber`, `issue`) VALUES (NULL, '$FullName', 
-	'$PhoneNumber', '$issue'); ");
+$stmt = $pdo->prepare("INSERT INTO `contact` (`id`,`FullName`, `CountryCode`,`PhoneNumber`,`issue`) VALUES (NULL, '$FullName', '$CountryCode',
+	'$PhoneNumber','$issue')");
 
 $stmt->execute();
 
-header("Location: thank you.php");
+header("Location: Contact-dashboard.php");
 ?>
