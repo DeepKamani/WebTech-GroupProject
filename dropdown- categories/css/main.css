@@ -1,0 +1,153 @@
+* {box-sizing: border-box}
+body {font-family: "Lato", sans-serif;}
+
+/* Style the tab */
+.tab {
+    float: left;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    width: 20%;
+    height: 100px;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+    display: block;
+    background-color: white;
+    color: black;
+    padding: 20px 30px;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    height: 100px;
+    font-size: 20px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: white;
+}
+
+/* Create an active/current "tab button" class */
+.tab button.active {
+    background-color: #f1f1f1;
+}
+
+/* Style the tab content */
+.tabcontent {
+    float: left;
+    padding: 0px 12px;
+    border: 1px solid gray;
+    width: 70%;
+    border-left: none;
+    height: 100px;
+    display: none;
+}
+
+/* Clear floats after the tab */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+h3{
+    display: inline;
+}
+
+/*style dropdown-type*/
+.dropbtn {
+    background-color: #f1f1f1;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;  
+    min-width: 160px;
+    /*box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);*/
+    z-index: 1;
+    width:800px;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    /*text-decoration: none;*/
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: white;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: white;}
+
+/*style popu&excu*/
+.d{
+     background-color: #f1f1f1;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+/*style dropdown-hashtags*/
+.dropbu {
+    background-color: #f1f1f1;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+.dropDown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropDCon {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    /*box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);*/
+    z-index: 1;
+    width:800px;
+}
+
+.dropDCon a {
+    color: black;
+    padding: 12px 16px;
+    /*text-decoration: none;*/
+    display: block;
+}
+
+.dropDCon a:hover {background-color: white;}
+
+.dropDown:hover .dropDCon {display: block;}
+
+.dropDown:hover .dropbu {background-color: white;}
+
+.inline{
+    display:inline-block;
+    width:20%;
+}
+
+.inline2{
+    display:inline-block;
+    width:20%;
+    
+}
+
+
