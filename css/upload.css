@@ -6,3 +6,7 @@ header{
 #logo{
 	width:100px;
 }
+
+.title{
+	border-style: 2px;
+}

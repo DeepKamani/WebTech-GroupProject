@@ -1,0 +1,70 @@
+/*header{
+	background-color: black;
+	padding:10px;
+	width: 100%;
+}*/
+/*#logo{
+	width:100px;
+}
+*/
+.title{
+	border: 2px solid black;
+}
+
+
+.pos{
+	   width: 100%;
+       padding: 12px 20px;
+       margin: 0px 0;
+       display: inline-block;
+       border: 4px solid black;
+       box-sizing: border-box;
+       font-size: 20px;
+}
+
+.center{
+	/*padding:10%;*/
+    margin: 0 auto;
+    width: 830px;
+}
+
+.dropDCon {
+    background-color: #f1f1f1;
+    min-width: 160px;
+    z-index: 1;
+    width:100%;
+}
+
+.dropDCon a {
+    color: black;
+    padding: 12px 16px;
+    display: block;
+}
+
+.dropdown-content {
+    background-color: #f1f1f1;  
+    min-width: 160px;
+    z-index: 1;
+    width:100%;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    display: block;
+}
+
+.inline{
+    display:inline-block;
+    width:20%;
+}
+
+.inline2{
+    display:inline-block;
+    width:20%;
+    
+}
+
+#search{
+	width: 100%;
+}
