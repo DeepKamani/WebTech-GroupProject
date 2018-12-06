@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport">
+<style>
+.dropbtn {
+    background-color: #a4a4a4;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #b6b6b6;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #f1f1f1;}
+</style>
+</head>
+<body>
+
+<div class="dropdown">
+  <button class="dropbtn">Filter:</button>
+  <div class="dropdown-content">
+    <a href="#">All</a>
+    <a href="#">Free</a>
+    <a href="#">Selling</a>
+    <a href="#">View</a>
+
+  </div>
+</div>
+
+</body>
+</html>
