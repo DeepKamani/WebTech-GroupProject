@@ -1,0 +1,612 @@
+button{
+      align-self:center;
+      background:transparent;
+      padding:1rem 1rem;
+      margin:0 1rem;
+      transition:all .5s ease;
+      color:#41403E;
+      font-size:2rem;
+      letter-spacing:1px;
+      outline:none;
+      box-shadow: 20px 38px 34px -26px hsla(0,0%,0%,.2);
+      border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+
+    buttonhover{
+        box-shadow:2px 8px 4px -6px hsla(0,0%,0%,.3);
+     }
+     &.lined.thick{
+        border:solid 7px #41403E;
+     }
+     &.dotted.thick{
+        border:dotted 5px #41403E;
+     }
+     &.dashed.thick{
+       border:dashed 5px #41403E;
+     }
+      &.lined.thin{
+        border:solid 2px #41403E;
+     }
+     &.dotted.thin{
+        border:dotted 2px #41403E;
+     }
+     &.dashed.thin{
+       border:dashed 2px #41403E;
+     }
+   }
+ }
+}
+@media only screen and (min-width : 300px) {
+
+
+
+  body{
+    background-color: lightgrey;
+    font-family: 'Open Sans', sans-serif;
+    text-align: left;
+
+  }
+
+  header{
+  padding-top: 20px;
+  background-color: #0cf;
+
+  }
+  img{
+    margin-top: 30px;
+    margin-left:20px;
+    border-radius: 50%;
+    padding: 10px;
+    width: 125px;
+
+  }
+
+  pre{
+    text-align: left;
+    line-height: 5pt;
+    font-size: 16px;
+  }
+
+  p{
+    font-size: 1em;
+    text-align: left;
+  }
+
+  h1{
+
+    font-size: 1.75em;
+  }
+
+  h2{
+    text-align: left;
+    font-family: Tw Cen MT;
+    font-size: 1.2em;
+    letter-spacing: 3px;
+
+  }
+
+  h3{
+    text-align: left;
+    font-size: 1em;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 30pt;
+  }
+  h4{
+    text-align: left;
+    font-size: .9em;
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 5%;
+    padding-bottom: 3%;
+  }
+  .container{
+    display: inline-block;
+    width:100%;
+    float:left;
+    padding-bottom:25px;
+
+    background-color: white;
+
+
+
+  }
+  .grid-container {
+    display: grid;
+
+  }
+  .top{
+    grid-row: 1;
+  }
+
+  .top{
+    display: inline-block;
+    width:100%
+    padding: 0;
+    padding-left: 30px;
+    background-color: #0cf;
+  }
+  .image{
+    float: left;
+    padding-left: 6%;
+
+  }
+
+
+/* Styling skill block */
+
+
+  .skills{
+    /* background-color: #FF9933; */
+    margin:auto;
+    padding: 20px 0;
+  }
+  .skills h3{
+
+    text-align: left;
+    padding-left: 6%;
+    padding-top:3px;
+    padding-bottom: 3px;
+    line-height: 21pt;
+  }
+  .skills p{
+    text-align: left;
+    padding-left: 8%;
+    line-height: 15pt
+  }
+  #Skills{
+    padding-left:5%;
+    line-height: 25pt;
+    text-align: left;
+  }
+
+  /* Education section */
+  .row3{
+
+
+    /* background: #99CCCC; */
+    padding-right: 3px;
+  }
+  #Education{
+    padding-left: 5%;
+    line-height: 25pt;
+  }
+
+  #Education p{
+  padding-left: 7%;
+  line-height: 15pt;
+  }
+  .column2row1{
+    grid-row: 3;
+    padding-bottom:25px;
+
+  }
+
+
+
+
+
+  /* Experience Section */
+  .row4{
+    /* background: #99CCCC; */
+    grid-row: 4;
+    padding-bottom:25px;
+  }
+  #Experience h2{
+    padding-left:5%;
+  }
+  #Experience h3{
+    padding-left:5%;
+    padding-right: 4%;
+  }
+  .Experience p{
+  padding-left: 5%;
+  padding-right: 4%;
+  line-height: 15pt;
+
+  }
+  /* Projects Section */
+
+  .row5{
+    grid-row: 5;
+    padding-bottom: 25px;
+  }
+  .row5 h2{
+    padding-left: 5%;
+  }
+  .row5 h3{
+    padding-left: 5%;
+    padding-right: 4%;
+  }
+  .row5 h4{
+    padding-left: 5%;
+
+  }
+  #projects p {
+  line-height: 15pt;
+  padding-left: 5%;
+  padding-right: 4%;
+
+
+  }
+
+}
+
+@media only screen and (min-width: 786px) {
+  body{
+
+    font-family: 'Open Sans', sans-serif;
+
+    width: 100%;
+
+  }
+  header{
+    width: 100%;
+    background: #0cf;
+  }
+
+  p{
+    font-size: 1em;
+    text-align: left;
+  }
+
+  h1{
+    padding-left: 40px;
+    font-size: 1.75em;
+  }
+
+  h2{
+    text-align: left;
+    font-family: Tw Cen MT;
+    font-size: 1.2em;
+    letter-spacing: 3px;
+
+  }
+
+  h3{
+    text-align: left;
+    font-size: 1em;
+    font-family: 'Open Sans', sans-serif;
+
+  }
+  span{
+    font-size: 16px;
+  }
+  img{
+
+    border-radius: 50%;
+    width: 140px;
+  }
+  pre{
+
+    padding-left: 40px;
+    text-align: left;
+
+    line-height: 5pt;
+    font-size: 18px;
+  }
+  .top{
+    display: inline-block;
+    background-color: #0cf;
+    width:100%
+    padding: 0;
+    padding-left: 10px;
+
+  }
+  .image{
+
+    float: left;
+  }
+  .container{
+    display: inline-block;
+
+    width:75%;
+    position: absolute;
+    left:12.5%;
+    right:12.5%;
+
+  }
+
+  .vl {
+    border-left: 3px solid orange;
+
+  }
+
+
+
+  .grid-container {
+
+
+    display: grid;
+    /* grid-template-columns: auto auto auto; */
+
+  }
+
+  .grid-column {
+
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+
+
+  }
+
+  .column1 {
+    padding:20px 10px 0 20px;
+
+    grid-column: 1;
+
+  }
+
+  .inner1 {
+    grid-row: 1;
+
+  }
+  .column2 {
+    padding:20px 20px 0 0;
+    grid-column: 2/ span 4;
+
+
+  }
+
+  /* styling for title paragraph */
+  #designation{
+
+    padding-left:4px;
+  }
+
+  /* Styling skill block */
+  .skills h2{
+
+  }
+  .skills h3{
+    text-align: left;
+    padding-left: 8px;
+    padding-top:3px;
+    padding-bottom: 3px;
+    line-height: 21pt;
+  }
+  .skills p{
+    text-align: left;
+    padding-left: 14px;
+    line-height: 15pt
+  }
+  #Skills{
+    padding-left:3px;
+    line-height: 20pt;
+    text-align: left;
+  }
+
+  /* Education section */
+
+  .column2row1{
+    grid-row: 1;
+    padding-bottom:25px;
+
+  }
+
+
+  #Education p{
+    padding-left: 7px;
+    padding-right: 3px;
+  line-height: 15pt;
+  }
+
+
+  /* Experience Section */
+  .column2row2{
+    grid-row: 2;
+    padding-bottom:25px;
+  }
+  #Experience{
+  padding-left: 10px;
+  padding-right: 3px;
+  line-height: 15pt;
+
+  }
+  /* Projects Section */
+
+  .column2row3{
+    grid-row: 3;
+
+
+  }
+  #projects{
+  line-height: 15pt;
+  padding-left: 10px;
+  padding-right: 3px;
+
+  }
+
+}
+@media only screen and (min-width: 992px) {
+
+
+
+body{
+  background-color: lightgrey;
+  font-family: 'Open Sans', sans-serif;
+
+  width: 100%;
+
+}
+header{
+  width: 100%;
+  #0cf
+}
+
+p{
+  font-size: 1em;
+  text-align: left;
+}
+
+h1{
+  padding-left: 40px;
+  font-size: 1.75em;
+  letter-spacing: 1.1px;
+}
+
+h2{
+  text-align: left;
+  font-family: Tw Cen MT;
+  font-size: 1.2em;
+  letter-spacing: 2.5px;
+
+}
+
+h3{
+  text-align: left;
+  font-size: 1em;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 30pt;
+}
+span{
+  font-size: 16px;
+}
+img{
+  width:180px;
+
+  margin-top: 20px;
+
+  float: left;
+
+}
+
+pre{
+
+  padding-left: 40px;
+  text-align: left;
+
+  line-height: 5pt;
+  font-size: 22px;
+}
+.top{
+  display: inline-block;
+  width:100%
+  padding: 0;
+  padding-left: 3.5%;
+  padding-bottom: 1.5%;
+  background-color: #0cf;
+}
+.image{
+  float: left;
+
+
+}
+.container{
+  display: inline-block;
+
+  width:75%;
+  position: absolute;
+  left:12.5%;
+  right:12.5%;
+
+}
+
+.vl {
+  border-left: 4px solid orange;
+
+}
+
+
+
+.grid-container {
+
+
+  display: grid;
+  /* grid-template-columns: auto auto auto; */
+
+}
+
+.grid-column {
+
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+
+
+}
+
+.column1 {
+  padding:20px 10px 0 20px;
+  grid-column: 1;
+
+}
+
+.inner1 {
+  grid-row: 1;
+  padding-top: 0;
+}
+.column2 {
+  padding:20px 20px 0 0;
+  grid-column: 2/ span 4;
+
+
+}
+
+/* styling for title paragraph */
+#designation{
+
+  padding-left:4px;
+}
+.skills{
+  padding: 0;
+}
+/* Styling skill block */
+.skills h3{
+  text-align: left;
+  padding-left: 8px;
+  padding-bottom: 3px;
+  line-height: 21pt;
+}
+.skills p{
+  text-align: left;
+  padding-left: 14px;
+  padding-right: 3%;
+  line-height: 15pt
+}
+
+#Skills h2{
+  padding-left:3px;
+
+  text-align: left;
+}
+
+/* Education section */
+
+.column2row1{
+  grid-row: 1;
+  padding-bottom:25px;
+
+}
+
+#Education h2{
+  padding-left: 10px;
+}
+
+#Education p{
+  padding-left: 10px;
+  padding-right: 4%;
+line-height: 15pt;
+}
+
+
+/* Experience Section */
+.column2row2{
+  grid-row: 2;
+  padding-bottom:25px;
+}
+#Experience{
+padding-left: 10px;
+padding-right: 4%;
+line-height: 15pt;
+
+}
+/* Projects Section */
+
+.column2row3{
+  grid-row: 3;
+
+
+}
+#projects{
+line-height: 15pt;
+padding-left: 10px;
+padding-right: 4%;
+
+}

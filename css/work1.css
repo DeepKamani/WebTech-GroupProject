@@ -1,0 +1,16 @@
+.title_image{
+  width:80%;
+  height: auto;
+}
+.WriteUps{
+  font-family: Arial sans-serif;
+
+  width: 80%;
+  height: 300px;
+  background-color: #0cf;
+  color: #000;
+}
+.WriteUps h2{
+  padding: 50px;
+  font-size: 16px;
+}

@@ -1,0 +1,430 @@
+#header,.cover {
+  background-color: transparent;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  height: 110vh;
+  width: 100%;
+}
+
+#header .overlay,
+.cover .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 204, 255, 0.5);
+}
+
+#header .display-t,
+.cover .display-t {
+  width: 100%;
+  display: table;
+}
+
+#header .display-tc,
+.cover .display-tc {
+  display: table-cell;
+  vertical-align: middle;
+  height: 110vh;
+}
+
+#header .display-tc h1, #header .display-tc h2, #header .display-tc h3,
+.cover .display-tc h1,
+.cover .display-tc h2,
+.cover .display-tc h3 {
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+#header .display-tc h1,
+.cover .display-tc h1 {
+  font-family: "Kaushan Script", cursive;
+  margin-bottom: 30px;
+  font-size: 50px;
+  line-height: 1.3;
+  font-weight: 300;
+  -webkit-transform: rotate(-5deg);
+  -moz-transform: rotate(-5deg);
+  -ms-transform: rotate(-5deg);
+  -o-transform: rotate(-5deg);
+  transform: rotate(-5deg);
+}
+
+#header .display-tc h1 span,
+.cover .display-tc h1 span {
+  padding: 4px 15px;
+  position: relative;
+}
+
+#header .display-tc h1 span:before,
+.cover .display-tc h1 span:before {
+  position: absolute;
+  top: 40px;
+  left: 0;
+  width: 30px;
+  height: 4px;
+  content: "";
+  background: #fff;
+  margin-left: -30px;
+}
+
+#header .display-tc h1 span:after,
+.cover .display-tc h1 span:after {
+  position: absolute;
+  top: 40px;
+  right: 0;
+  width: 30px;
+  height: 4px;
+  content: "";
+  background: #fff;
+  margin-right: -30px;
+}
+
+@media screen and (max-width: 768px) {
+  #header .display-tc h1,
+.cover .display-tc h1 {
+    font-size: 34px;
+  }
+
+  #header .display-tc h1 span:before,
+.cover .display-tc h1 span:before {
+    top: 28px;
+    width: 20px;
+    height: 3px;
+    margin-left: -15px;
+  }
+
+  #header .display-tc h1 span:after,
+.cover .display-tc h1 span:after {
+    top: 28px;
+    width: 20px;
+    height: 3px;
+    margin-right: -15px;
+  }
+}
+#header .display-tc h2,
+.cover .display-tc h2 {
+  font-size: 20px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+#header .display-tc h3,
+.cover .display-tc h3 {
+  font-size: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  #header .display-tc h3,
+.cover .display-tc h3 {
+    font-size: 18px;
+  }
+}
+#header .display-tc .profile-thumb,
+.cover .display-tc .profile-thumb {
+  background-size: cover !important;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 200px;
+  width: 200px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+}
+
+#about-description {
+  margin-top: 50px;
+  width: 600px;
+  height: 800px;
+  background: #fff;
+}
+/* About */
+.skill {
+  padding-top: 50px;
+}
+#xyz p{
+  font: 24px Arial;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.skills h1 {
+
+  color: #000000;
+  font: bold 50px Arial;
+  padding: 10px;
+  border-bottom: 1px solid #0cf;
+  width: 250px;
+  margin: 0 auto 25px;
+}
+
+.toggles{
+  padding-left: 50px;
+
+}
+
+.toggles button {
+
+  border: 2px solid #222;
+  border-radius: 40px;
+  background-color: #0cf;
+  color: #222;
+  margin: auto;
+
+
+  padding: 10px;
+  width: 150px;
+  cursor: pointer;
+  font-size: 14px;
+  margin: 5px 5px;
+}
+@media screen and (max-width: 768px) {
+
+  .toggles{
+    padding-left:33%;
+
+  }
+}
+.competency{
+  text-align:right;
+  font-size: 1em;
+  float: left;
+  width: 280px;
+  padding: 10px;
+}
+
+.ux{
+  text-align:left;
+  font-size: 1em;
+  float: left;
+  width: 280px;
+  padding: 10px;
+}
+
+.engineering{
+  text-align:right;
+  font-size: 1em;
+  float: left;
+  width: 280px;
+  padding: 10px;
+}
+
+.visual{
+  text-align:left;
+  font-size: 1em;
+  float: left;
+  width: 280px;
+  padding: 10px;
+}
+/* .posts div:nth-child(1) {
+
+  text-align:right;
+  font-size: 1em;
+  float: left;
+  width: 280px;
+  padding: 10px;
+}
+.posts div:nth-child(2) {
+
+  text-align:left;
+  font-size: 1em;
+  float: left;
+  width: 280px;
+  padding: 10px;
+}
+.posts div:nth-child(3) {
+
+  text-align:right;
+  font-size: 1em;
+  float: left;
+  width: 280px;
+  padding: 10px;
+}
+.posts div:nth-child(4) {
+
+  text-align:left;
+  font-size: 1em;
+  float: left;
+  width: 280px;
+  padding: 10px;
+} */
+.posts {
+  width: 800px;
+  margin: 2em auto;
+}
+/* .posts div {
+  font: 16px/250px Arial;
+  width: 245px;
+  height: 250px;
+  float: left;
+  margin: 10px;
+  display: block;
+  text-align: center;
+  background: #0cf;
+  color: #fff;
+  text-align: right;
+  font-size: 1em;
+  float: left;
+  width: 280px;
+
+} */
+
+/* Contact Page */
+#contact h1 {
+  text-align: center;
+  color: #000;
+  font: bold 50px Arial;
+  padding: 10px;
+  border-bottom: 1px solid #0cf;
+  width: 250px;
+  margin: 0 auto 25px;
+}
+
+#contact{
+  /* Style inputs */
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+
+  /* Style the container/contact section */
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+  }
+
+  /* Create two columns that float next to eachother */
+  .column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+  }
+
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  #map {
+        height: 100%;
+      }
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+
+    .column, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .display-tc{
+    position: absolute;
+  text-align: center;
+  top: 100px;
+  }
+
+  #about-description{
+
+    width:400px;
+    height: 400px;
+    background: #fff;
+  }
+  #header{
+    height: 540px;
+  }
+  .links ul{
+  position: relative;
+  bottom:0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  padding: 0;
+  display: flex;
+
+  }
+  .links ul li{
+  list-style: none;
+  margin: 0 20px;
+
+  }
+  .links ul li .fa{
+  font-size: 20px;
+  color: #262626;
+  line-height: 40px;
+  transition: .5s;
+
+  }
+  .links ul li a{
+  position: relative;
+  display: block;
+  width: 40px;
+  height: 40px;
+  background-color: #fff;
+  text-align: center;
+  transform: perspective(100px) rotate(-30deg) skew(25deg) translate(0,0);
+  transition: .5s;
+  box-shadow: -10px 10px 5px rgb(0, 0, 0, 0.5);
+  }
+  .links ul li a::before{
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: -10px;
+  height: 100%;
+  width: 10px;
+  background: #b1b1b1;
+  transition: .5s;
+  transform: rotate(0deg) skewY(-45deg);
+  }
+  .links ul li a::after{
+  content: "";
+  position: absolute;
+  top: 40px;
+  left: -5.5px;
+  height: 10px;
+  width: 100%;
+  background: #b1b1b1;
+  transition: .5s;
+  transform: rotate(0deg) skewX(-45deg);
+  }
+  .links ul li a:hover{
+  transform: perspective(1000px) rotate(-30deg) skew(25deg) translate(20px, -20px);
+  box-shadow: -50px 50px 50px rgb(0, 0, 0, 0.5);
+  }
+  .links ul li:hover .fa{
+  color: #fff;
+  }
+  .links ul li a:hover{
+  transform: perspective(1000px) rotate(-30deg) skew(25deg) translate(20px, -20px);
+  box-shadow: -50px 50px 50px rgb(0, 0, 0, 0.5);
+  }
+}
+/*# sourceMappingURL=about.css.map */
